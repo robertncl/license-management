@@ -1,0 +1,32 @@
+# License Policy for Open Source Dependencies
+# Allows permissive and weak copyleft licenses, blocks strong copyleft licenses
+# Example format for license compliance tools
+
+allowed_licenses:
+  - MIT
+  - Apache-2.0
+  - BSD-2-Clause
+  - BSD-3-Clause
+  - ISC
+  - MPL-2.0
+  - EPL-2.0
+  - LGPL-2.1
+  - LGPL-3.0
+  - CDDL-1.0
+  - Unlicense
+  - Zlib
+  - Python-2.0
+  - Artistic-2.0
+
+blocked_licenses:
+  - GPL-2.0
+  - GPL-3.0
+  - AGPL-3.0
+  - SSPL-1.0
+  - OSL-3.0
+  - EUPL-1.2
+  - CeCILL-2.1
+  - CeCILL-B
+  - CeCILL-C
+
+# Any license not explicitly listed in allowed_licenses is considered blocked by default. 
