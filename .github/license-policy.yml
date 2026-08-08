@@ -1,0 +1,32 @@
+license_policy:
+  version: "1.0"
+  blocked_licenses:
+    - "GPL-2.0"
+    - "GPL-3.0"
+    - "AGPL-3.0"
+    - "LGPL-2.1"
+    - "LGPL-3.0"
+    - "SSPL-1.0"
+    - "OSL-3.0"
+    - "EPL-1.0"
+    - "CDDL-1.0"
+  allowed_licenses:
+    - "MIT"
+    - "Apache-2.0"
+    - "BSD-2-Clause"
+    - "BSD-3-Clause"
+    - "ISC"
+    - "Unlicense"
+    - "0BSD"
+    - "MPL-2.0"
+  review_required:
+    - "EPL-2.0"
+    - "CDDL-1.0"
+  exemptions:
+    repositories:
+      - "legacy-project-1"
+      - "research-prototype"
+  enforcement_level: "blocking"  # warning, blocking
+  notification:
+    teams: ["@org/security-team", "@org/legal-team"]
+    channels: ["#license-compliance"] 
